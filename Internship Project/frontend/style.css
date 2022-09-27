@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 body{
-   background:#006EA9;
    font-family: 'Poppins', sans-serif;
    box-sizing: border-box;
+   margin: 0px;
+   padding:0;
 }
 
 .container{
-    margin-top: -35px;
+    height: 100vh;
+    margin-top: 0px;
+    background:#006EA9;
 }
 
 .navbar{
@@ -52,6 +55,7 @@ ul li{
     border-radius: 3px;
     border:none;
     margin-right: 65px;
+    cursor: pointer;
 }
 
 .maincontent{
@@ -90,4 +94,75 @@ ul li{
     width:200px;
     margin-left: 950px;
     margin-top: -35px;
+}
+
+.icon-up{
+    height:30px;
+    width:30px;
+}
+
+.middle{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.middlecontent{
+    padding:50px;
+    margin-top:15px;
+}
+
+.midheading h3{
+    font-size:30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.para{
+    font-size:15px;
+    font-weight: 400;
+}
+
+.listitem{
+    display:flex;
+    margin-top:-10px;
+}
+
+.listitem p{
+    display:flex;
+}
+
+/* .tick{
+} */
+
+
+.btr{
+    margin-top:15px;
+    height: 38px;
+    width: 165px;
+    padding: 10px;
+    background-color: #007CC2;
+    border:0;
+    color: white;
+    border-radius:3px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.12);
+}
+
+.middlepic{
+    margin-left: 60px;
+    position: relative;
+}
+
+.middlepic img{
+    margin-top: -80px;
+    margin-left: 40px;
+    height:320px;
+    width:320px;
+    border-radius:0px 80px 0px 0px;
+}
+
+.f{
+    position:absolute;
+    top:40px;
+    left:-50px;
 }
