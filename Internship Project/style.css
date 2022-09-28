@@ -246,6 +246,7 @@ ul li{
     font-size:16px;
     font-weight:500;
     margin-bottom:15px;
+    margin-left: 5px;
 }
 
 .text1{
@@ -263,8 +264,8 @@ ul li{
 
 .connected{
     display:flex;
-    margin-top:30px;
-}
+    margin-top:50px;
+    }
 
 .bg1{
     display: flex;
@@ -272,12 +273,16 @@ ul li{
     background-color:white;
     color:black;
     margin-top:-20px;
-    margin-left: 65px;
-    border:0.1px solid rgb(131, 131, 131);
+    margin-left: 100px;
     position:relative;
     border-radius: 0px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.12);
+    border: 1px solid rgb(100, 100, 100);
 }
 
+.bg3{
+    margin-left:80px;
+}
 
 .notification{
 position: absolute;
@@ -300,6 +305,10 @@ margin-top:20px;
 
 .header{
     margin-top: 130px;
+}
+
+.header1{
+    margin-top: 85px;
 }
 
 .ex1{
@@ -339,3 +348,34 @@ margin-top:20px;
     color: #007CC2; 
     padding: 10px;
 }
+
+.bg2{
+    width: 800px;
+    position:relative;
+}
+
+.ex5{
+    display:flex;
+    align-items:left;
+    justify-content:end;
+    margin-left: -650px;
+}
+
+.title3{
+    margin-left: 20px;
+}
+
+.t5{
+    position:absolute;
+    top:0;
+}
+
+.user{
+    margin-top: -15px;
+    margin-left: -5px;
+}
+
+ .t1 p{
+    margin-top: 5px;
+    margin-left: 52px;
+} 
