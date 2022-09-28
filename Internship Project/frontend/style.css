@@ -101,7 +101,7 @@ ul li{
     width:30px;
 }
 
-.middle{
+.middlepart1{
     display:flex;
     align-items:center;
     justify-content:center;
@@ -165,4 +165,65 @@ ul li{
     position:absolute;
     top:40px;
     left:-50px;
+}
+
+.about{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:-10px;
+}
+
+.heading2{
+    color: #007CC2;
+    font-size:30px;
+    font-weight:600;
+}
+
+.des{
+    margin-top:-55px;
+}
+
+.midconatiner{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-color: #007CC2;
+    height: 270px;
+    width: 270px;
+    margin:40px;
+    color:white;
+    border-radius: 15px;
+}
+
+.title{
+    font-size:20px;
+    margin-top:-30px;
+}
+
+.text{
+    margin-top:10px;
+    font-size: 12px;
+}
+
+.button{
+    margin-top:40px;
+}
+
+.morebtn{
+    height:30px;
+    width:140px;
+    color:#007CC2;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.12);
+
 }
