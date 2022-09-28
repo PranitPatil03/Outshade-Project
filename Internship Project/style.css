@@ -9,7 +9,7 @@ body{
 
 .container{
     height: 100vh;
-    margin-top: 0px;
+    margin-top: -10px;
     background:#006EA9;
 }
 
@@ -26,7 +26,7 @@ body{
 
 .heading{
     font-family: 'Blinker', sans-serif;
-    font-weight:600px;
+    font-weight:500px;
     font-size:30px;
 }
 
@@ -256,3 +256,86 @@ ul li{
     margin-top:-72px;
 }
 
+.extra2{
+    margin-top:-55px;
+    padding:5px;
+}
+
+.connected{
+    display:flex;
+    margin-top:30px;
+}
+
+.bg1{
+    display: flex;
+    flex-direction:column;
+    background-color:white;
+    color:black;
+    margin-top:-20px;
+    margin-left: 65px;
+    border:0.1px solid rgb(131, 131, 131);
+    position:relative;
+    border-radius: 0px;
+}
+
+
+.notification{
+position: absolute;
+padding: 10px;
+top: 0;
+left:0;
+font-size: 16px;
+font-weight: 600;
+}
+
+.markasread{
+padding: 10px;
+position: absolute;
+top: 0;
+right: 0;
+color: #007CC2; 
+font-size: 12px;
+margin-top:20px;
+}
+
+.header{
+    margin-top: 130px;
+}
+
+.ex1{
+    font-size: 12px;
+    font-weight: 600;
+    display:flex;
+    flex-direction:row;
+    margin-left:10px;
+    padding:6px;
+    align-items: center;
+    justify-content:center;
+}
+
+.pic{
+    margin-left:5px;
+}
+
+.text1 p{
+    position:absolute;
+    left:0;
+    margin-top:25px;
+    margin-left: 45px;
+    font-weight: lighter;
+}
+
+.ex2{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.viewall{
+    font-size:12px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #007CC2; 
+    padding: 10px;
+}
