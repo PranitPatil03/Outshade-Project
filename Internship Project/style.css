@@ -227,3 +227,32 @@ ul li{
     box-shadow: 0 4px 4px rgba(0,0,0,0.12);
 
 }
+
+.extra{
+    margin-top:40px;
+    padding:5px;
+}
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    color:black;
+    margin-top:-20px;
+    margin-left: 65px;;
+}
+
+.title1{
+    font-size:16px;
+    font-weight:500;
+    margin-bottom:15px;
+}
+
+.text1{
+    font-size:12px;
+}
+
+.upcircle{
+    margin-top:-72px;
+}
+
