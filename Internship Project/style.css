@@ -273,15 +273,17 @@ ul li{
     background-color:white;
     color:black;
     margin-top:-20px;
-    margin-left: 100px;
+    margin-right: 15px;
     position:relative;
     border-radius: 0px;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.12);
-    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 0 12px 12px rgba(107, 107, 107, 0.3);
+    border: 1px solid #C4C4C4;
+
 }
 
 .bg3{
-    margin-left:80px;
+    margin-left:140px;
+    padding:10px
 }
 
 .notification{
@@ -330,12 +332,12 @@ margin-top:20px;
     position:absolute;
     left:0;
     margin-top:25px;
-    margin-left: 45px;
+    margin-left: 75px;
     font-weight: lighter;
 }
 
 .ex2{
-    margin-top:50px;
+    margin-top:60px;
     margin-bottom: 50px;
 }
 
@@ -350,15 +352,16 @@ margin-top:20px;
 }
 
 .bg2{
-    width: 800px;
+    width: 700px;
     position:relative;
+    padding:10px
 }
 
 .ex5{
     display:flex;
     align-items:left;
     justify-content:end;
-    margin-left: -650px;
+    margin-left: -600px;
 }
 
 .title3{
@@ -372,10 +375,57 @@ margin-top:20px;
 
 .user{
     margin-top: -15px;
-    margin-left: -5px;
+    margin-left: -10px;
 }
 
  .t1 p{
     margin-top: 5px;
-    margin-left: 52px;
+    margin-left: 60px;
 } 
+
+.ex6{
+    margin-top:10px;
+}
+
+/* .backgdimage{
+    display:flex;
+} */
+
+.image1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left: -200px;
+} 
+
+.heart{
+    height:500px;
+    width:1100px;
+}
+
+.mid{
+    margin-left: -330px;
+    margin-top: 15px;
+}
+
+.play{
+    margin-left: 22px;
+    margin-top: 7px;
+}
+
+.center{
+    margin-left:-250px
+}
+
+.btc{
+    width:1098px;
+}
+
+.btc1{
+    margin-left:386px;
+}
+
+.bottom{
+    margin-top: -76px;
+    margin-left: 322px;
+}
