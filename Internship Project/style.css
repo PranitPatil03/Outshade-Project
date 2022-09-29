@@ -132,11 +132,8 @@ ul li{
     display:flex;
 }
 
-/* .tick{
-} */
-
-
 .btr{
+    cursor: pointer;
     margin-top:15px;
     height: 38px;
     width: 165px;
@@ -225,7 +222,7 @@ ul li{
     background-color: white;
     border: none;
     box-shadow: 0 4px 4px rgba(0,0,0,0.12);
-
+    cursor: pointer;
 }
 
 .extra{
@@ -302,6 +299,7 @@ right: 0;
 color: #007CC2; 
 font-size: 12px;
 margin-top:20px;
+cursor: pointer;
 }
 
 .header{
@@ -349,6 +347,7 @@ margin-top:20px;
     right: 0;
     color: #007CC2; 
     padding: 10px;
+    cursor: pointer;
 }
 
 .bg2{
@@ -436,7 +435,7 @@ margin-top:20px;
 
 .persons{
     display:flex;
-    margin-top:20px
+    margin-top:50px
 }
 
 .reactangle{
@@ -482,4 +481,104 @@ margin-top:20px;
     color: #007CC2; 
     padding: 10px;
     margin-right: 15px;
+    cursor: pointer;
 }
+
+.footer{
+    color: white;
+    margin-top:150px
+}
+
+.reactangle1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #002C45;
+    width: 100%;
+    height: 250px;
+    padding:10px;
+}
+
+.con1{
+    padding:20px;
+    margin-right: 20px;
+}
+
+.smallrec{
+    background: #0B4668;
+    width: 100%;
+    height: 40px;
+}
+
+.title2 p{
+    font-size:15px;
+}
+
+.description2 p{
+    font-size:10px;
+}
+
+.con2{
+    display:flex;
+    padding:60px;
+    margin-top:-5px
+}
+
+.quicklinks ul li {
+    font-size:10px;
+    padding:5px;
+    text-decoration: none;
+    margin-left: -40px;
+    font-weight: 200;
+}
+.quicklinks p {
+    font-size:18px;
+}
+
+.con3{
+    display:flex;
+    padding:60px;
+    margin-top:-38px
+}
+
+.topics ul li {
+    font-size:10px;
+    padding:5px;
+    text-decoration: none;
+    margin-left: -40px;
+    font-weight: 200;
+}
+.topics p {
+    font-size:18px;
+}
+
+.con4{
+    display:flex;
+    padding:60px;
+    margin-top:-4px
+}
+
+.implinks ul li {
+    font-size:10px;
+    padding:5px;
+    text-decoration: none;
+    margin-left: -40px;
+    font-weight: 200;
+}
+.implinks p {
+    font-size:18px;
+}
+
+.socials{
+    display:flex;
+    margin-top: 20px;
+}
+
+.twitter{
+    margin-left: 10px;
+}
+
+.linkdin{
+    margin-left: 10px;
+}
+
