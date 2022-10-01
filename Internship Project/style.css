@@ -22,6 +22,7 @@ body{
 
 .logo{
     margin-left:50px;
+    cursor: pointer;
 }
 
 .heading{
@@ -46,7 +47,8 @@ ul li{
 }
 
 .navitem{
-    margin-left: 295px;
+    margin-left: 400px;
+    cursor: pointer;
 }
 
 .btn{
@@ -131,6 +133,10 @@ ul li{
     font-weight: 400;
 }
 
+.p1{
+    margin-left: 10px;
+}
+
 .listitem{
     display:flex;
     margin-top:-10px;
@@ -207,11 +213,32 @@ ul li{
     margin:40px;
     color:white;
     border-radius: 15px;
+    margin-top:60px;
+}
+.top{
+    position:relative;
+}
+
+.topimage{
+    margin-top: -30px;
+    margin-left: -160px;
+    height: 100px;
+    width: 100px;
+    background-color:#007CC2;
+    border-radius: 50%;
+}
+
+.topimage1{
+    position:absolute;
+    left: 0;
+    top: 0;
+    margin-top: -18px;
+    margin-left: -145px;
 }
 
 .title{
     font-size:20px;
-    margin-top:-30px;
+    margin-top:5px;
 }
 
 .text{
@@ -437,6 +464,44 @@ cursor: pointer;
     margin-left: 345px;
 }
 
+.bottomitem{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-left:-210px;
+    margin-top:-10px;
+}
+
+.leftbtn1{
+    margin-top:10px;
+    padding:10px;
+    margin-left:10px;
+}
+
+.leftbtn2{
+    margin-top:10px;
+    padding:10px;
+    margin-left:40px
+}
+
+.rightbtn{
+    margin-left: -10px;
+}
+
+.rightbtn1{
+    padding:10px;
+    margin-left:100px;
+    margin-right:-55px
+}
+
+.rightbtn2{
+    margin-top:10px;
+    padding:10px;
+    margin-left:100px;
+    margin-right:100px
+}
+
+
 .ex7{
     margin-top:100px
 }
@@ -498,6 +563,7 @@ cursor: pointer;
 }
 
 .reactangle1{
+    position: relative;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -505,6 +571,25 @@ cursor: pointer;
     /* width: 100%; */
     height: 250px;
     padding:10px;
+}
+
+.last{
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.last1{
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-right: 30px;
+    margin-bottom: 26px;
+
 }
 
 .con1{
@@ -529,7 +614,8 @@ cursor: pointer;
 .con2{
     display:flex;
     padding:60px;
-    margin-top:-5px
+    margin-top:-5px;
+    cursor: pointer;
 }
 
 .quicklinks ul li {
@@ -546,7 +632,8 @@ cursor: pointer;
 .con3{
     display:flex;
     padding:60px;
-    margin-top:-38px
+    margin-top:-38px;
+    cursor: pointer;
 }
 
 .topics ul li {
@@ -563,7 +650,8 @@ cursor: pointer;
 .con4{
     display:flex;
     padding:60px;
-    margin-top:-4px
+    margin-top:-4px;
+    cursor: pointer;
 }
 
 .implinks ul li {
@@ -580,6 +668,7 @@ cursor: pointer;
 .socials{
     display:flex;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .twitter{
